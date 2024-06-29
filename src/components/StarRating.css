@@ -1,0 +1,14 @@
+/* src/components/StarRating.css */
+.star-rating {
+  display: flex; /* Устанавливаем flex контейнер для горизонтального расположения */
+  justify-content: center; /* Центрируем звезды по горизонтали */
+  cursor: pointer; /* Устанавливаем курсор указатель */
+}
+
+.star {
+  transition: color 200ms; /* Плавный переход цвета звезд */
+}
+
+input[type="radio"] {
+  display: none; /* Скрываем радиокнопки */
+}

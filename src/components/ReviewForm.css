@@ -1,0 +1,30 @@
+/* src/components/ReviewForm.css */
+.review-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.comment {
+  width: 100%;
+  max-width: 500px;
+  height: 100px;
+  margin: 20px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 200ms;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
